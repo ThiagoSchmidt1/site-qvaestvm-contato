@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
+    font-family: Poppins, Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -45,10 +46,6 @@
     }
 }
 
-main {
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-}
-
 .menu-principal {
     display: flex;
     align-items: center;
@@ -85,9 +82,6 @@ nav ol {
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
-
-    /* button texto */
-    font-family: Poppins;
     font-size: var(--mid-texto);
     font-style: normal;
     font-weight: var(--peso-normal);
@@ -102,7 +96,6 @@ nav ol {
 
 body {
     background-color: var(--azul-claro);
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: var(--body);
     padding-top: 80px;
     line-height: 1.6;
@@ -129,8 +122,6 @@ h1 {
     justify-content: center;
     align-items: center;
     padding-top: 32px;
-
-    /* h1 style */
     font-size: var(--titulos-grandes);
     font-style: normal;
     font-weight: 500;
@@ -215,9 +206,6 @@ input {
     border-radius: 10px;
     border: 2px solid var(--cinza-claro);
     transition: all 0.3s ease;
-
-    /* texto */
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: var(--body);
     font-style: normal;
     font-weight: 500;
@@ -236,9 +224,6 @@ textarea {
     border: 2px solid var(--cinza-claro);
     resize: vertical;
     transition: all 0.3s ease;
-
-    /* texto */
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: var(--body);
     font-style: normal;
     font-weight: 500;
@@ -276,7 +261,6 @@ textarea::placeholder {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -476,7 +460,6 @@ footer {
 }
 
 .button-thank-you {
-    font-family: poppins;
     font-size: var(--body);
     font-weight: 400;
     display: flex;
