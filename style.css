@@ -50,7 +50,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 32px;
+    padding: 8px 32px;
     position: fixed;
     background-color: var(--branco-principal);
     width: 100%;
@@ -605,3 +605,4 @@ footer {
         box-shadow: 0 0 0 2px #000;
     }
 }
+
